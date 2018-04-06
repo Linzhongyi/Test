@@ -27,11 +27,12 @@ public class SampleController {
     	System.out.println("hello spring boot");
     	int sum=0;
     	int i=1;
-    	while(i<356){
+    	while(i<30){
     		sum+=i;
     		i++;
     	}
     	System.out.println(sum);
+    	
     	System.out.println("haha");
         return "Hello World!";
     }
