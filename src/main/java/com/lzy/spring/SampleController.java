@@ -27,6 +27,7 @@ public class SampleController {
     	System.out.println("hello spring boot");
     	int sum=0;
     	int i=1;
+    	i = 0;
     	while(i<30){
     		sum+=i;
     		i++;
